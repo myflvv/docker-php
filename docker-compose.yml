@@ -1,0 +1,72 @@
+version: "3"
+services: 
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+    volumes:
+      #www
+      - /Users/zhangdayu/data/www:/usr/share/nginx/html:rw
+      #conf
+      - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf/conf.d/:/etc/nginx/conf.d/:ro
+      #log
+      - ./nginx/logs:/var/log/nginx/:rw
+    networks:
+      - code-network
+
+  php7:
+    build: ./php7-fpm
+    ports:
+      - "9000"
+    volumes:
+      - /Users/zhangdayu/data/www:/usr/share/nginx/html:rw
+      #php.ini
+      - ./php7-fpm/conf/php.ini-development:/usr/local/etc/php/php.ini:ro
+      #php-fpm
+      - ./php7-fpm/conf/php-fpm.conf:/usr/local/var/log/php-fpm.conf:ro
+      #log
+      - ./php7-fpm/logs/php_errors.log:/usr/local/var/log/php_errors.log:rw
+      - ./php7-fpm/logs/php-fpm.log:/usr/local/var/log/php-fpm.log:rw
+    networks:
+      - code-network
+
+  mysql:
+    build: ./mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql/data:/var/lib/mysql:rw
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+    networks:
+      - code-network
+
+  redis:
+    image: daocloud.io/library/redis:3.2.9
+    ports:
+      - "6379"
+    networks:
+      - code-network
+
+  # elasticsearch:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:6.3.1
+  #   container_name: elasticsearch
+  #   environment:
+  #     - cluster.name=docker-cluster
+  #     - bootstrap.memory_lock=true
+  #     - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+  #   ulimits:
+  #     memlock:
+  #       soft: -1
+  #       hard: -1
+  #   volumes:
+  #     - ./elasticsearch/data:/usr/share/elasticsearch/data
+  #   ports:
+  #     - 9200:9200
+  #   networks:
+  #     - code-network
+
+networks:
+  code-network:
+    driver: bridge

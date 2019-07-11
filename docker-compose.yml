@@ -21,7 +21,14 @@ nginx:
     - php56-fpm:fpm56
   extra_hosts:
     - esb.test:10.10.112.195
-
+#apache
+apache:
+  build: ./apache
+  ports:
+    - "81:81"
+  volumes:
+    - ./apache/hosts:/etc/hosts:ro
+    
 # php-fpm
 fpm:
   build: ./php-fpm

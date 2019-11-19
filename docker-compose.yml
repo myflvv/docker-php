@@ -23,6 +23,8 @@ services:
       - "9000"
       - 18306:18306
       - 18307:18307
+      #swoole
+      - 9501:9501
     volumes:
       - /home/nothing/data/php7:/usr/share/nginx/html:rw
       #php.ini

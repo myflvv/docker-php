@@ -279,3 +279,70 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /usr/bin/phpcs on line 17
+[01-Nov-2019 08:20:11 UTC] PHP Warning:  require_once(/usr/share/nginx/html/swoft_http/vendor/autoload.php): failed to open stream: No such file or directory in /usr/share/nginx/html/swoft_http/bin/bootstrap.php on line 3
+[01-Nov-2019 08:20:11 UTC] PHP Fatal error:  require_once(): Failed opening required '/usr/share/nginx/html/swoft_http/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/swoft_http/bin/bootstrap.php on line 3
+[12-Nov-2019 11:46:07 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
+Stack trace:
+#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
+#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
+#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
+#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
+#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
+#5 {main}
+  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
+[12-Nov-2019 11:46:33 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
+Stack trace:
+#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
+#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
+#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
+#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
+#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
+#5 {main}
+  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
+[12-Nov-2019 11:49:55 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/Util/Getopt.php on line 45
+[12-Nov-2019 11:49:55 UTC] PHP Stack trace:
+[12-Nov-2019 11:49:55 UTC] PHP   1. {main}() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/phpunit:0
+[12-Nov-2019 11:49:55 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/phpunit:36
+[12-Nov-2019 11:49:55 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:105
+[12-Nov-2019 11:49:55 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:115
+[12-Nov-2019 11:49:55 UTC] PHP   5. PHPUnit_Util_Getopt::getopt() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:240
+[12-Nov-2019 11:49:55 UTC] PHP   6. each() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/Util/Getopt.php:45
+[12-Nov-2019 12:05:37 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
+Stack trace:
+#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
+#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
+#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
+#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
+#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
+#5 {main}
+  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
+[12-Nov-2019 12:11:40 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
+Stack trace:
+#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
+#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
+#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
+#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
+#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
+#5 {main}
+  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
+[12-Nov-2019 12:12:29 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/Util/Getopt.php on line 45
+[12-Nov-2019 12:12:29 UTC] PHP Stack trace:
+[12-Nov-2019 12:12:29 UTC] PHP   1. {main}() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/phpunit:0
+[12-Nov-2019 12:12:29 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/phpunit:36
+[12-Nov-2019 12:12:29 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:105
+[12-Nov-2019 12:12:29 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:115
+[12-Nov-2019 12:12:29 UTC] PHP   5. PHPUnit_Util_Getopt::getopt() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:240
+[12-Nov-2019 12:12:29 UTC] PHP   6. each() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/Util/Getopt.php:45
+[13-Nov-2019 01:55:19 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
+Stack trace:
+#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
+#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
+#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
+#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
+#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
+#5 {main}
+  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
+[19-Nov-2019 08:24:01 UTC] PHP Warning:  Swoole\Server::start(): Using Xdebug in coroutines is extremely dangerous, please notice that it may lead to coredump! in /usr/share/nginx/html/test_swoole/http_server.php on line 28
+[19-Nov-2019 08:24:01 UTC] PHP Stack trace:
+[19-Nov-2019 08:24:01 UTC] PHP   1. {main}() /usr/share/nginx/html/test_swoole/http_server.php:0
+[19-Nov-2019 08:24:01 UTC] PHP   2. Swoole\Http\Server->start() /usr/share/nginx/html/test_swoole/http_server.php:28

@@ -815,7 +815,7 @@ file_uploads = On
 
 ; Maximum allowed size for uploaded files.
 ; http://php.net/upload-max-filesize
-upload_max_filesize = 2M
+upload_max_filesize = 5M
 
 ; Maximum number of files that can be uploaded via a single request
 max_file_uploads = 20
@@ -883,7 +883,7 @@ default_socket_timeout = 60
 ;   Be sure to appropriately set the extension_dir directive.
 ;
 ;extension=bz2
-;extension=curl
+extension=curl
 ;extension=fileinfo
 ;extension=gd2
 ;extension=gettext
@@ -897,7 +897,7 @@ default_socket_timeout = 60
 ;extension=mysqli
 ;extension=oci8_12c  ; Use with Oracle Database 12c Instant Client
 ;extension=odbc
-;extension=openssl
+extension=openssl
 ;extension=pdo_firebird
 ;extension=pdo_mysql
 ;extension=pdo_oci
@@ -911,7 +911,7 @@ default_socket_timeout = 60
 ; See http://www.php.net/manual/en/snmp.installation.php
 ;extension=snmp
 
-;extension=soap
+extension=soap
 ;extension=sockets
 ;extension=sqlite3
 ;extension=tidy

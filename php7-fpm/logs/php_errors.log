@@ -1,348 +1,1205 @@
-[23-Sep-2019 14:44:38 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: error_log(/usr/share/nginx/html/test_gitlab/runtime/log/201909/23.log): failed to open stream: Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:122
+[30-Sep-2021 11:11:12 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
 Stack trace:
-#0 [internal function]: think\Error::appError(2, 'error_log(/usr/...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(122): error_log('---------------...', 3, '/usr/share/ngin...')
-#2 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(86): think\log\driver\File->write('---------------...', '/usr/share/ngin...', false, true)
-#3 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
-#4 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
-#5 [internal function]: think\Error::appShutdown()
-#6 {main}
-  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 122
-[23-Sep-2019 15:19:48 Asia/Shanghai] PHP Fatal error:  Class 'tests\TestCase' not found in /usr/share/nginx/html/test_gitlab/tests/IndexTest.php on line 3
-[23-Sep-2019 15:25:06 Asia/Shanghai] PHP Fatal error:  Class 'tests\TestCase' not found in /usr/share/nginx/html/test_gitlab/tests/IndexTest.php on line 4
-[23-Sep-2019 15:32:59 Asia/Shanghai] PHP Fatal error:  Class 'tests\TestCase' not found in /usr/share/nginx/html/test_gitlab/tests/IndexTest.php on line 4
-[23-Sep-2019 15:34:20 Asia/Shanghai] PHP Fatal error:  Class 'tests\TestCase' not found in /usr/share/nginx/html/test_gitlab/tests/IndexTest.php on line 4
-[23-Sep-2019 15:36:03 Asia/Shanghai] PHP Fatal error:  Class 'tests\TestCase' not found in /usr/share/nginx/html/test_gitlab/tests/IndexTest.php on line 4
-[09-Oct-2019 03:05:28 UTC] PHP Notice:  Undefined index: statuses in /usr/share/nginx/html/test_gitlab/weibolist.php on line 40
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:19:30 UTC] PHP Notice:  Undefined index: screen_name in /usr/share/nginx/html/test_gitlab/weibolist.php on line 45
-[09-Oct-2019 03:25:06 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 23
-[09-Oct-2019 03:25:52 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 03:27:19 UTC] PHP Notice:  Undefined index: retweeted_status in /usr/share/nginx/html/test_gitlab/weibolist.php on line 49
-[09-Oct-2019 06:45:47 UTC] PHP Notice:  Undefined index: statuses in /usr/share/nginx/html/test_gitlab/weibolist.php on line 40
-[11-Oct-2019 05:39:27 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:11:12 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
 Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:27 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:43 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:43 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:44 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:44 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:46 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:46 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:47 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:47 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:49 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:49 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:50 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:39:50 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:40:15 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:40:15 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:40:17 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:40:17 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:42:52 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:42:52 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:42:54 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:42:54 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:43:08 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[11-Oct-2019 05:43:08 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/usr/share/nginx/html/test_gitlab/storage/framework/views/e52999ea4ce6327b9614918e4c10bc96b8ae074d.php): failed to open stream: Permission denied in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
-Stack trace:
-#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/share/ngin...', 122, Array)
-#1 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/usr/share/ngin...', '<?php $__env->s...', 0)
-#2 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/usr/share/ngin...', '<?php $__env->s...')
-#3 /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/usr/share/ngin...')
-#4 /usr/share in /usr/share/nginx/html/test_gitlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
-[12-Oct-2019 02:15:18 UTC] PHP Warning:  include_once(PHP/CodeSniffer/autoload.php): failed to open stream: No such file or directory in /usr/bin/phpcs on line 14
-[12-Oct-2019 02:15:18 UTC] PHP Warning:  include_once(): Failed opening 'PHP/CodeSniffer/autoload.php' for inclusion (include_path='.:/usr/local/lib/php') in /usr/bin/phpcs on line 14
-[12-Oct-2019 02:15:18 UTC] PHP Fatal error:  Uncaught Error: Class 'PHP_CodeSniffer\Runner' not found in /usr/bin/phpcs:17
-Stack trace:
-#0 {main}
-  thrown in /usr/bin/phpcs on line 17
-[01-Nov-2019 08:20:11 UTC] PHP Warning:  require_once(/usr/share/nginx/html/swoft_http/vendor/autoload.php): failed to open stream: No such file or directory in /usr/share/nginx/html/swoft_http/bin/bootstrap.php on line 3
-[01-Nov-2019 08:20:11 UTC] PHP Fatal error:  require_once(): Failed opening required '/usr/share/nginx/html/swoft_http/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/swoft_http/bin/bootstrap.php on line 3
-[12-Nov-2019 11:46:07 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
-Stack trace:
-#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
-#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
-#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
-#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
-#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
 #5 {main}
-  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
-[12-Nov-2019 11:46:33 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[30-Sep-2021 11:11:49 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
 Stack trace:
-#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
-#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
-#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
-#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
-#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
-#5 {main}
-  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
-[12-Nov-2019 11:49:55 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/Util/Getopt.php on line 45
-[12-Nov-2019 11:49:55 UTC] PHP Stack trace:
-[12-Nov-2019 11:49:55 UTC] PHP   1. {main}() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/phpunit:0
-[12-Nov-2019 11:49:55 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/phpunit:36
-[12-Nov-2019 11:49:55 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:105
-[12-Nov-2019 11:49:55 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:115
-[12-Nov-2019 11:49:55 UTC] PHP   5. PHPUnit_Util_Getopt::getopt() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:240
-[12-Nov-2019 11:49:55 UTC] PHP   6. each() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/Util/Getopt.php:45
-[12-Nov-2019 12:05:37 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:11:49 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
 Stack trace:
-#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
-#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
-#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
-#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
-#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
 #5 {main}
-  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
-[12-Nov-2019 12:11:40 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[30-Sep-2021 11:12:24 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
 Stack trace:
-#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
-#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
-#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
-#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
-#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
-#5 {main}
-  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
-[12-Nov-2019 12:12:29 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/Util/Getopt.php on line 45
-[12-Nov-2019 12:12:29 UTC] PHP Stack trace:
-[12-Nov-2019 12:12:29 UTC] PHP   1. {main}() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/phpunit:0
-[12-Nov-2019 12:12:29 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/phpunit:36
-[12-Nov-2019 12:12:29 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:105
-[12-Nov-2019 12:12:29 UTC] PHP   4. PHPUnit_TextUI_Command->handleArguments() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:115
-[12-Nov-2019 12:12:29 UTC] PHP   5. PHPUnit_Util_Getopt::getopt() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/TextUI/Command.php:240
-[12-Nov-2019 12:12:29 UTC] PHP   6. each() /usr/share/nginx/html/newciprun/vendor/phpunit/phpunit/src/Util/Getopt.php:45
-[13-Nov-2019 01:55:19 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/ExampleTest' could not be found in '/usr/share/nginx/html/newciprun/tests/ExampleTest.php'. in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:94
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:12:24 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
 Stack trace:
-#0 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(113): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/ExampleTe...', '/usr/share/ngin...')
-#1 phar:///usr/bin/phpunit/phpunit/Runner/BaseTestRunner.php(85): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/ExampleTe...', '/usr/share/ngin...')
-#2 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(78): PHPUnit\Runner\BaseTestRunner->getTest('tests/ExampleTe...', '/usr/share/ngin...', Array)
-#3 phar:///usr/bin/phpunit/phpunit/TextUI/Command.php(66): PHPUnit\TextUI\Command->run(Array, true)
-#4 /usr/bin/phpunit(647): PHPUnit\TextUI\Command::main()
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
 #5 {main}
-  thrown in phar:///usr/bin/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 94
-[19-Nov-2019 08:24:01 UTC] PHP Warning:  Swoole\Server::start(): Using Xdebug in coroutines is extremely dangerous, please notice that it may lead to coredump! in /usr/share/nginx/html/test_swoole/http_server.php on line 28
-[19-Nov-2019 08:24:01 UTC] PHP Stack trace:
-[19-Nov-2019 08:24:01 UTC] PHP   1. {main}() /usr/share/nginx/html/test_swoole/http_server.php:0
-[19-Nov-2019 08:24:01 UTC] PHP   2. Swoole\Http\Server->start() /usr/share/nginx/html/test_swoole/http_server.php:28
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[30-Sep-2021 11:12:26 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
+Stack trace:
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:12:26 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[30-Sep-2021 11:12:36 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
+Stack trace:
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:12:36 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[30-Sep-2021 11:12:38 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
+Stack trace:
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:12:38 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[30-Sep-2021 11:12:52 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
+Stack trace:
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:12:52 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[30-Sep-2021 11:13:30 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
+Stack trace:
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:13:30 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[30-Sep-2021 11:14:25 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
+Stack trace:
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:14:25 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[30-Sep-2021 11:15:02 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /usr/share/nginx/html/tp_framework/library/think/Error.php:56
+Stack trace:
+#0 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#1 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/Error.php on line 56
+[30-Sep-2021 11:15:02 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Cannot modify header information - headers already sent in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php:17
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'Cannot modify h...', '/usr/share/ngin...', 17, Array)
+#1 /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php(17): header('HTTP/1.1 404 No...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): app\common\exception\Http->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/gbicom.com/application/common/exception/Http.php on line 17
+[01-Nov-2021 01:12:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Nov-2021 01:12:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Nov-2021 01:12:31 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[01-Nov-2021 01:15:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Nov-2021 01:15:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Nov-2021 01:15:08 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[01-Nov-2021 09:15:41 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 09:24:06 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 09:24:52 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:10:48 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:11:44 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:11:50 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:12:05 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:12:54 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:15:21 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:15:45 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:16:11 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:22:03 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:22:21 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:22:41 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:23:13 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:38:17 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:39:29 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:40:11 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:40:17 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:40:28 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:40:50 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:41:12 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:48:08 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:55:33 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 10:56:14 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:04:06 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:04:15 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:04:42 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Array to string conversion in /usr/share/nginx/html/api_event/application/bg_promote/model/SmsPromoteSendlog.php:73
+Stack trace:
+#0 /usr/share/nginx/html/api_event/application/bg_promote/model/SmsPromoteSendlog.php(73): think\Error::appError(8, 'Array to string...', '/usr/share/ngin...', 73, Array)
+#1 /usr/share/nginx/html/api_event/application/bg_promote/controller/Smspromote.php(63): app\bg_promote\model\SmsPromoteSendlog->search(Array)
+#2 [internal function]: app\bg_promote\controller\Smspromote->search()
+#3 /usr/share/nginx/html/tp_framework/library/think/Container.php(372): ReflectionMethod->invokeArgs(Object(app\bg_promote\controller\Smspromote), Array)
+#4 /usr/share/nginx/html/tp_framework/library/think/route/dispatch/Module.php(134): think\Container->invokeReflectMethod(Object(app\bg_promote\controller\Smspromote), Object(ReflectionMethod), Array)
+#5 [internal function]: think\route\dispatch\Module->think\route\dispatch\{closure}(Object(think\Request), Object(C in /usr/share/nginx/html/api_event/application/bg_promote/model/SmsPromoteSendlog.php on line 73
+[01-Nov-2021 11:04:42 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:05:06 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: Array to string conversion in /usr/share/nginx/html/api_event/application/bg_promote/model/SmsPromoteSendlog.php:73
+Stack trace:
+#0 /usr/share/nginx/html/api_event/application/bg_promote/model/SmsPromoteSendlog.php(73): think\Error::appError(8, 'Array to string...', '/usr/share/ngin...', 73, Array)
+#1 /usr/share/nginx/html/api_event/application/bg_promote/controller/Smspromote.php(63): app\bg_promote\model\SmsPromoteSendlog->search(Array)
+#2 [internal function]: app\bg_promote\controller\Smspromote->search()
+#3 /usr/share/nginx/html/tp_framework/library/think/Container.php(372): ReflectionMethod->invokeArgs(Object(app\bg_promote\controller\Smspromote), Array)
+#4 /usr/share/nginx/html/tp_framework/library/think/route/dispatch/Module.php(134): think\Container->invokeReflectMethod(Object(app\bg_promote\controller\Smspromote), Object(ReflectionMethod), Array)
+#5 [internal function]: think\route\dispatch\Module->think\route\dispatch\{closure}(Object(think\Request), Object(C in /usr/share/nginx/html/api_event/application/bg_promote/model/SmsPromoteSendlog.php on line 73
+[01-Nov-2021 11:05:06 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:05:26 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:06:43 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:07:09 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:07:45 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:08:49 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:11:22 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:11:42 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:11:59 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:12:12 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:12:19 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:12:40 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:12:55 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:13:10 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:16:36 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:16:40 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:16:58 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:17:01 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:17:40 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:18:35 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 11:42:31 Asia/Shanghai] PHP Fatal error:  Uncaught Exception: Connection timed out in /usr/share/nginx/html/tp_framework/library/think/custom/common/RedisLog.php:71
+Stack trace:
+#0 /usr/share/nginx/html/tp_framework/library/think/custom/common/RedisLog.php(34): think\custom\common\RedisLog::push('error', '\xE5\xBC\x82\xE5\xB8\xB8:Connecti...', '')
+#1 /usr/share/nginx/html/tp_framework/library/think/custom/common/BaseException.php(20): think\custom\common\RedisLog::error('\xE5\xBC\x82\xE5\xB8\xB8:Connecti...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): think\custom\common\BaseException->render(Object(RedisException))
+#3 [internal function]: think\Error::appException(Object(RedisException))
+#4 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/custom/common/RedisLog.php on line 71
+[01-Nov-2021 11:43:32 Asia/Shanghai] PHP Fatal error:  Uncaught Exception: Connection timed out in /usr/share/nginx/html/tp_framework/library/think/custom/common/RedisLog.php:71
+Stack trace:
+#0 /usr/share/nginx/html/tp_framework/library/think/custom/common/RedisLog.php(34): think\custom\common\RedisLog::push('error', '\xE5\xBC\x82\xE5\xB8\xB8:Uncaught...', '')
+#1 /usr/share/nginx/html/tp_framework/library/think/custom/common/BaseException.php(20): think\custom\common\RedisLog::error('\xE5\xBC\x82\xE5\xB8\xB8:Uncaught...')
+#2 /usr/share/nginx/html/tp_framework/library/think/Error.php(56): think\custom\common\BaseException->render(Object(think\exception\ErrorException))
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(90): think\Error::appException(Object(think\exception\ErrorException))
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/custom/common/RedisLog.php on line 71
+[01-Nov-2021 13:35:38 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:36:18 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:36:26 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:36:29 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:36:46 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:36:58 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:37:15 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:38:36 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:38:48 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:38:54 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:38:59 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:39:03 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:39:15 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:39:27 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:40:46 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:40:56 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:42:14 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:42:20 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:42:49 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:43:14 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 13:43:25 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:02:10 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:02:55 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:06:24 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:17:34 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:17:40 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:18:19 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:19:32 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:19:59 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:20:26 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:21:03 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:21:17 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:23:07 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:23:17 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:23:41 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:24:46 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:24:58 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:25:05 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:25:12 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:35:00 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:35:49 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:39:43 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:40:27 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:41:36 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:43:39 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:54:17 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:54:44 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:55:03 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 14:57:03 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:02:43 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:03:50 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:04:26 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:04:38 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:04:56 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:16:37 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:16:47 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:18:12 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:18:17 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:18:39 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:18:55 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:19:34 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:19:38 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:19:50 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:44:55 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:45:02 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61
+[01-Nov-2021 15:45:26 Asia/Shanghai] PHP Fatal error:  Uncaught think\exception\ErrorException: mkdir(): Permission denied in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php:61
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'mkdir(): Permis...', '/usr/share/ngin...', 61, Array)
+#1 /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php(61): mkdir('/usr/share/ngin...', 493, true)
+#2 /usr/share/nginx/html/tp_framework/library/think/Log.php(224): think\log\driver\File->save(Array, true)
+#3 /usr/share/nginx/html/tp_framework/library/think/Error.php(94): think\Log->save()
+#4 [internal function]: think\Error::appShutdown()
+#5 {main}
+  thrown in /usr/share/nginx/html/tp_framework/library/think/log/driver/File.php on line 61

@@ -5,6 +5,7 @@ services:
     build: ./nginx
     ports:
       - "80:80"
+      - "8009:8009"
     volumes:
       #www
       - /home/nothing/data/php7:/usr/share/nginx/html:rw
@@ -42,6 +43,19 @@ services:
       - REDIS_HOST=10.10.112.195
       - REDIS_PORT=6379
 
+    networks:
+      - code-network
+
+  php56-fpm:
+    container_name: con_php56
+    build: ./php56-fpm
+    ports:
+      - "9000"
+    volumes: 
+      - /home/nothing/data/php7:/usr/share/nginx/php56html
+      - ./php56-fpm/php.ini-production:/usr/local/etc/php/php.ini:ro
+    extra_hosts:
+      - esb.test:10.10.112.195
     networks:
       - code-network
 

@@ -6,24 +6,26 @@ RUN apt-get update && apt-get install -y \
         libmcrypt-dev \
         screen \
         #swoole 
-        libpcre2-dev \
-        libhiredis-dev \
+        #libpcre2-dev \
+        #libhiredis-dev \
         # libpng12-dev
 	&& docker-php-ext-install -j$(nproc) iconv mcrypt bcmath gd mysqli  zip mbstring pdo_mysql sockets\
     && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ 
 
 #pecl install
 RUN pecl install redis \
-    && docker-php-ext-enable redis \ 
-    && pecl install swoole \
-    && docker-php-ext-enable swoole
+    && docker-php-ext-enable redis 
+    #&& pecl install swoole \
+    #&& docker-php-ext-enable swoole
 
 # php composer
-RUN php -r "copy('https://install.phpcomposer.com/installer', 'composer-setup.php');" \
-    && php composer-setup.php \
-    && php -r "unlink('composer-setup.php');" \
-    && mv composer.phar /usr/local/bin/composer \
-    && composer config -g repo.packagist composer https://packagist.phpcomposer.com
+#RUN php -r "copy('https://install.phpcomposer.com/installer', 'composer-setup.php');" \
+    #&& php composer-setup.php \
+    #&& php -r "unlink('composer-setup.php');" \
+    #&& mv composer.phar /usr/local/bin/composer \
+    #&& composer config -g repo.packagist composer https://packagist.phpcomposer.com
+
+COPY composer.phar /usr/local/bin/composer
 
 #下载安装
 #RUN curl -L -o /tmp/redis.tar.gz https://github.com/phpredis/phpredis/archive/4.1.0.tar.gz \
